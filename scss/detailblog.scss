@@ -1,0 +1,119 @@
+.postinfo-wrapper {
+  .post-info {
+    margin-top: 30px;
+    .post-commet {
+      border-bottom: 1px solid #e7e4dd;
+      border-top: 1px solid #e7e4dd;
+      font-size: 14px;
+      margin: 0 0 30px;
+      padding: 15px 0;
+      text-align: left;
+      text-transform: uppercase;
+      .social-icons {
+        margin-top: 1px;
+        font-size: 16px;
+        li {
+          display: inline-block;
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+  .article-next-previous {
+    margin-bottom: 30px;
+    .left {
+      float: left !important;
+    }
+    .right {
+      float: right !important;
+    }
+  }
+}
+blockquote {
+  font-size: 1.125em;
+  line-height: 1.45;
+  font-style: italic;
+  margin: 0 0 30px;
+  padding: 15px 30px;
+  border-left: 1px solid #e5e5e5;
+}
+.social-icons {
+  float: right;
+  margin-top: 5px;
+}
+.review_address_inner {
+  .pro_review {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    .review_thumb {
+      margin-right: 20px;
+      min-width: 8%;
+    }
+  }
+  .review_info h4 {
+    font-weight: 500;
+  }
+  .pagination-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    li {
+      display: inline-block;
+      a {
+        color: #333333;
+        display: block;
+        padding: 0 8px;
+      }
+      a:hover {
+        color: #8a8f6a;
+      }
+    }
+    li.active a {
+      color: #8a8f6a;
+    }
+  }
+}
+.comment-form-comment label{
+  display: block;
+}
+.comment-form-comment .comment-notes {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #777;
+  height: 140px;
+}
+.comment-input label {
+  display: block;
+}
+.comment-input input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #777;
+  height: 40px;
+}
+.comment-input {
+  margin: 0 -10px;
+  overflow: hidden;
+}
+.comments-reply-area .comment-input .comment-form-author, .comments-reply-area .comment-input .comment-form-email {
+  width: 50%;
+}
+.comment-form-author, .comment-form-email, .comment-form-url {
+  float: left;
+  padding: 0 10px;
+  width: 33.3333%;
+}
+.comment-form-submit .comment-submit {
+  background: #8a8f6a;
+  color: #ffffff;
+  border: none;
+  padding: 8px 15px;
+  margin-top: 20px;
+} 
+.comment-form-submit .comment-submit:hover {
+  background: #000000;
+}

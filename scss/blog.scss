@@ -1,0 +1,213 @@
+.mb--30 {
+  margin-bottom: 30px;
+}
+.btn {
+  background: #8a8f6a;
+  color: #ffffff;
+  border-radius: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  position: relative;
+}
+.btn:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.social-icons li {
+  margin: 0 15px 15px;
+  vertical-align: middle;
+}
+.content-wraper {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  .blog-sidebar {
+    h4 {
+      font-size: 18px;
+      font-weight: 600;
+      color: #333;
+      margin-bottom: 15px;
+      padding-bottom: 15px;
+      position: relative;
+      border-bottom: 1px solid #ddd;
+      text-transform: uppercase;
+    }
+    .search-post {
+      position: relative;
+      margin-top: 20px;
+      input {
+        border: 1px solid #dddddd;
+        font-size: 14px;
+        height: 40px;
+        padding: 10px 50px 10px 10px;
+        position: relative;
+        width: 100%;
+      }
+      .btn-search {
+        border: medium none;
+        font-size: 16px;
+        padding: 7px 15px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        background: #ddd;
+      }
+      .search-results {
+        z-index: 8889;
+        list-style-type: none;
+        width: 190px;
+        margin: 0;
+        padding: 0;
+        background: #ffffff;
+        border: 1px solid #cccccc;
+        border-radius: 0px;
+        -webkit-box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.1);
+        box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+      }
+    }
+    ul > li {
+      display: block;
+      margin-bottom: 10px;
+      > a {
+        font-size: 14px;
+        display: block;
+        font-weight: 500;
+      }
+    }
+  }
+  .sidbar-product .sidbar-product-inner {
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 20px;
+    .product-image {
+      padding-right: 10px;
+      width: 100px;
+      position: relative;
+    }
+  }
+  .sidebar-tag > a {
+    border: 1px solid #000000;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 10px 10px 0 0;
+    padding: 4px 15px;
+  }
+  .sidebar-tag > a:hover {
+    background: #8a8f6a;
+    color: #ffffff;
+    border: 1px solid #8a8f6a;
+  }
+  .single-blog-area {
+    margin-bottom: 30px;
+    .blog-contend {
+      margin-top: 20px;
+      h3 {
+        font-weight: 600;
+      }
+      .blog-date-categori {
+        margin-bottom: 10px;
+        ul {
+          li {
+            display: inline-block;
+            a {
+              font-size: 14px;
+              margin-right: 10px;
+              font-weight: 500;
+              i {
+                font-size: 14px;
+                margin-right: 5px;
+              }
+            }
+          }
+        }
+      }
+      .post-description {
+        margin-bottom: 20px;
+      }
+      .blog-btn {
+        display: inline-block;
+        padding: 5px 15px;
+      }
+      .blog-btn:hover {
+        background: #000;
+        color: #fff;
+      }
+      .social-icons {
+        float: right;
+        margin-top: 5px;
+        li {
+          display: inline-block;
+          margin-left: 10px;
+          a {
+            color: #333;
+          }
+        }
+      }
+    }
+  }
+  .paginatoin-area {
+    border-bottom: 1px solid #dddddd;
+    border-top: 1px solid #dddddd;
+    padding: 15px 0;
+    margin-top: 40px;
+    .pagination-box {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: end;
+      -ms-flex-pack: end;
+      justify-content: flex-end;
+      li {
+        display: inline-block;
+        a {
+          color: #333333;
+          display: block;
+          padding: 0 8px;
+        }
+      }
+    }
+    .pagination-box li.active a {
+      color: #8a8f6a;
+      cursor: pointer;
+    }
+  }
+}
+@media only screen and (max-width: 479px), only screen and (max-width: 767px) {
+  .paginatoin-area p {
+    text-align: center;
+    margin-bottom: 8px;
+  }
+  .pagination-box {
+    -webkit-box-pack: center !important;
+    -ms-flex-pack: center;
+    justify-content: center !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .pagination-box {
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .theme-default-pagination {
+    float: none;
+  }
+}
+@media only screen and (max-width: 479px) {
+  .blog-sidebar-wrap {
+    margin-top: 60px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .blog-sidebar-wrap {
+    margin-top: 70px;
+  }
+}
